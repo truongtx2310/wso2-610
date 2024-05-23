@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+DynamicImport-Package: *
+Bundle-ManifestVersion: 2
+Bundle-Name: mssql_jdbc_11.2.1.jre11
+Bundle-SymbolicName: mssql_jdbc_11.2.1.jre11
+Bundle-Version: 1.0.0
+Export-Package: com.microsoft.sqlserver.jdbc,com.microsoft.sqlserver.jdb
+ c.dataclassification,com.microsoft.sqlserver.jdbc.dns,microsoft.sql,mss
+ ql.googlecode.concurrentlinkedhashmap,com.microsoft.sqlserver.jdbc.osgi
+ ,com.microsoft.sqlserver.jdbc.spatialdatatypes,mssql.googlecode.cityhas
+ h,mssql.security.provider
+Bundle-ClassPath: .,mssql-jdbc-11.2.1.jre11.jar
+
